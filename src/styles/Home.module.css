@@ -282,7 +282,7 @@
   justify-content: center;
 }
 
-.topNav ul li {
+.topNav ul Link {
   list-style: none;
   margin: 25px 15px 0 20px;
   font-weight: bold;

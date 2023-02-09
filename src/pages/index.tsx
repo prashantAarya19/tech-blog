@@ -1,6 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 
@@ -15,13 +13,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <nav className={styles.topNav}>
-        <ul>
-          <li><Link href={'/home'}>Home</Link></li>
-          <li><Link href={'/about'}>About</Link></li>
-          <li><Link href={'/blogs'}>Blogs</Link></li>
-        </ul>
-      </nav>
+      
       <main className={styles.main}>
         <h1>Tech Blog</h1>
         <p className={styles.headDescription}>Next Js Blog</p>   
